@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">	
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Todo App</title>
+	<link rel="stylesheet" href="library/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="library/fontawesome/fontawesome-all.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">	
+	<link href="https://fonts.googleapis.com/css2?family=Baumans&family=Big+Shoulders+Stencil+Text&family=Faster+One&family=Saira+Condensed&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="shortcut icon"  href="images/logon.png">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<!-- navigation start -->	
+	<!-- <nav class="navbar navbar-expand-lg navbar-light ">
+		<div class="container">		
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
+				<span>
+					<img src="images/menu.png" width="25" alt="">
+				</span>
+			</button>	
+			<a href="index.html" class="navbar-brand font-30 font-big-shoulder text-dark ">ToDo</a>		
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav ml-auto font-bu font-20">
+					<li class="nav-item active">
+						<a href="#" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Contact Me</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Report</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>	 -->
+	<!-- navigataion end -->
+	<section id="todo-lists-form" class="mt-3">
+		<div class="container py-4">			
+			<div class="d-flex justify-content-between">
+				<h4 class="font-sar">To Do App</h3>
+				<h4 class="font-sar">5/27/2021</h3>
+			</div>
+		<form action="#" class="mt-4 d-flex justify-content-center font-bar mx-1" >
+			<input type="text" class="pl-2" placeholder="Add to ToDo Lists">
+			<button class="btn-add px-2 ml-1"><i class="fas fa-plus text-white"></i></button>
+		</form>
+		</div>
+	</section>
+	<section id="to-do-lists" class="mt-1">
+		<div class="container">
+			<div class="row note-1 align-items-center mx-1 py-3 mb-3" data-aos = "fade-up">
+				<div class="col-2">
+					<h1 class="font-sar text-white text-center">1</h1>
+				</div>
+				<div class="col-6">
+					<p class="font-20 font-bar text-white mt-2 text-center">
+						Wash dishes
+					</p>
+				</div>
+				<div class="col-4">
+					<div class="d-flex justify-content-end">
+						<button class="btn btn-success mr-1"><i class="fas fa-pen"></i></button><button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+					</div>
+				</div>
+			</div>
+			<div class="row note-2 align-items-center mx-1 py-3 mb-3" data-aos = "fade-up">
+				<div class="col-2">
+					<h1 class="font-sar text-white text-center">2</h1>
+				</div>
+				<div class="col-6">
+					<p class="font-20 font-bar text-white mt-2 text-center">
+						Go to Gym
+					</p>
+				</div>
+				<div class="col-4">
+					<div class="d-flex justify-content-end">
+						<button class="btn btn-success mr-1"><i class="fas fa-pen"></i></button><button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+					</div>
+				</div>
+			</div>
+			<div class="row note-3 align-items-center mx-1 py-3 mb-3" data-aos = "fade-up">
+				<div class="col-2">
+					<h1 class="font-sar text-white text-center">3</h1>
+				</div>
+				<div class="col-6">
+					<p class="font-20 font-bar text-white mt-2 text-center">
+						Read books
+					</p>
+				</div>
+ 				<div class="col-4">
+					<div class="d-flex justify-content-end">
+						<button class="btn btn-success mr-1"><i class="fas fa-pen"></i></button><button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+					</div>
+				</div>
+			</div>
+			<div class="row note-4 align-items-center mx-1 py-3 mb-3" data-aos = "fade-up">
+				<div class="col-2">
+					<h1 class="font-sar text-white text-center">4</h1>
+				</div>
+				<div class="col-6">
+					<p class="font-20 font-bar text-white mt-2 text-center">
+						Do homeworks
+					</p>
+				</div>
+				<div class="col-4">
+					<div class="d-flex justify-content-end">
+						<button class="btn btn-success mr-1"><i class="fas fa-pen"></i></button><button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+					</div>
+				</div>
+			</div>
+			<div class="row note-5 align-items-center mx-1 py-3 mb-3" data-aos = "fade-up">
+				<div class="col-2">
+					<h1 class="font-sar text-white text-center">5</h1>
+				</div>
+				<div class="col-6">
+					<p class="font-20 font-bar text-white mt-2 text-center">
+						Go to sleep
+					</p>
+				</div>
+				<div class="col-4">
+					<div class="d-flex justify-content-end">
+						<button class="btn btn-success mr-1"><i class="fas fa-pen"></i></button><button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<script src="library/bootstrap/jquery-3.4.1.slim.min.js"></script>
+	<script src="library/bootstrap/popper.min.js"></script>
+	<script src="library/bootstrap/bootstrap.min.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>	 
+	<script src="js/script.js"></script>
+	
+</body>
+</html>

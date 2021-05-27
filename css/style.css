@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+body{
+	background: #ffffff;
+}
+/*css global classes*/
+.font-16{
+	font-size: 16px;
+}
+.font-18{
+	font-size: 18px;
+}
+.font-20{
+	font-size: 20px;
+}
+.font-30{
+	font-size: 30px;
+}
+.font-big-shoulder{
+	font-family: 'Big Shoulders Stencil Text', cursive;
+}
+.font-bu{
+	font-family: 'Baumans', cursive;
+}
+.font-sar{
+	font-family: 'Saira Condensed', sans-serif;
+}
+.font-bar{
+	font-family: 'Barlow', sans-serif;
+}
+/*navigation*/
+nav .navbar-toggler-icon {
+	border: none;
+	outline: none;
+}
+nav .navbar-toggler{
+	display: contents;
+} 
+.nav-link{
+	margin-left: 30px;
+}
+@media screen and (max-width: 768px){
+	.nav-link{
+		margin-left: 0px!important;
+	}
+}
+#todo-lists-form .container{
+	background-color:#FDFCFC;
+}
+#todo-lists-form input[type=text]{
+	width: 40rem;
+	height: 2.8rem;
+	border: 1px solid #000;
+	border-radius: 3px;
+}
+#todo-lists-form .btn-add{
+	border: none;
+	outline: none;
+	width: 65px;
+	height: 45px;
+	border-radius: 3px;
+	background: #ACDE39;
+}
+#to-do-lists .note-1{
+	background-image: linear-gradient(to right, #0fe5f1, #00e0ce, #30d8a3, #61ce75, #87c145);
+}
+#to-do-lists .note-2{
+	background-image: linear-gradient(to right, #f113d9, #f900a5, #f30078, #e21753, #ca3535);
+}
+#to-do-lists .note-3{
+	background-image: linear-gradient(to right, #ded839, #d2da37, #c6db36, #badd37, #acde39);
+}
+#to-do-lists .note-4{
+	background-image: linear-gradient(to right top, #862dcc, #eb008f, #ff444f, #f89117, #cccb2d);
+}
+#to-do-lists .note-5{
+	background-image: linear-gradient(to right bottom, #0b6eef, #0098ff, #00b6e9, #00ccaf, #47db6f);
+}
