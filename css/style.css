@@ -51,18 +51,32 @@ nav .navbar-toggler{
 	background-color:#FDFCFC;
 }
 #todo-lists-form input[type=text]{
+	background-image: #f6f6f6;
 	width: 40rem;
 	height: 2.8rem;
-	border: 1px solid #000;
-	border-radius: 3px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #000;
+	border-radius: 0px;
 }
 #todo-lists-form .btn-add{
 	border: none;
 	outline: none;
 	width: 65px;
 	height: 45px;
+	margin-top: 1px;
 	border-radius: 3px;
 	background: #ACDE39;
+}
+
+@media screen and (max-width: 768px){
+	#todo-lists-form .btn-add{
+		width: 70px;
+	}
+}
+#to-do-lists i:hover{
+	color: #EF1A1A!important;
+	cursor: pointer;
 }
 #to-do-lists .note-1{
 	background-image: linear-gradient(to right, #0fe5f1, #00e0ce, #30d8a3, #61ce75, #87c145);
@@ -78,4 +92,19 @@ nav .navbar-toggler{
 }
 #to-do-lists .note-5{
 	background-image: linear-gradient(to right bottom, #0b6eef, #0098ff, #00b6e9, #00ccaf, #47db6f);
+}
+@media screen and (max-width : 768px) {
+	h4{
+		font-size: 22px;
+	}
+	h1{
+		font-size: 30px;
+		margin-top: 5px;
+	}
+	p{
+		font-size: 18px!important;
+	}
+	i{
+		font-size: 17px!important;
+	}
 }
